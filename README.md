@@ -35,24 +35,28 @@ GeForce GTX1070 ⇒ About 20 FPS </br>
 
 2. Open "SampleScene" in "Scene" folder.</br>
    If dialog shows up, please choose "Don't save".</br></br>
-3. Set model</br>
+
+3 Go to windows-> Package manager -> search "Barracuda" and install it.
+    (If it is not visible, Click Advanced -> Show preview packages and then install it.)
+
+4. Set model</br>
    Drag the NNModel you put before in Assets/Scripts/Model/ 
    and drop it to "NN Model" in Gameobject named as "BarracudaRunner" in Inspector view.
    ![unity_inspector.PNG](Assets/StreamingAssets/ScreenShots/unity_inspector.PNG)
    
-4. Start Debug</br>
+5. Start Debug</br>
    Now you can see real time motion capture by starting Debug.
    ![unity_wiper_too_big.PNG](Assets/StreamingAssets/ScreenShots/unity_wiper_too_big.PNG) </br>
    
    But sometimes the avatar get out of the box like above screen shot.<br>
 
-5. Arrange Size</br>
+6. Arrange Size</br>
    In this case, you should arrange the number in "Video Background Scale" of "MainTexture". </br>
    The range is 0.1 ~ 1 and the default value is 1.<br>
    Here please set this 0.8.</br>
    ![unity_arrange_size.PNG](Assets/StreamingAssets/ScreenShots/unity_arrange_size.PNG)</br>
    
-6. Start Debug anain<br>
+7. Start Debug anain<br>
    As you can see, the size of the avater fit the box.
    ![unity_wiper_size_suit.PNG](Assets/StreamingAssets/ScreenShots/unity_wiper_size_suit.PNG)</br>
    
